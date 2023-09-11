@@ -33,6 +33,8 @@ public class HomeController {
 		
 		model.addAttribute("serverTime", formattedDate );
 		
+		model.addAttribute("checkval", "작업 한글");
+		
 		return "home";
 	}
 	
