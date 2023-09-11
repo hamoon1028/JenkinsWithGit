@@ -5,8 +5,7 @@
 <html>
 <head>
 	<title>Home</title>
-	<script type="text/javascript" src="./js/test.js"></script>
-	<script type="text/javascript" src="./js/classWrite.js"></script>
+	
 </head>
 
 <body>
@@ -19,4 +18,6 @@
 <div>${checkval}</div>
 <div id="valueIn"></div>
 </body>
+<script type="text/javascript" src="./js/test.js"></script>
+	<script type="text/javascript" src="./js/classWrite.js"></script>
 </html>
