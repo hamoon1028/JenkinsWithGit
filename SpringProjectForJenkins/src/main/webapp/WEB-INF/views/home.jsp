@@ -6,6 +6,7 @@
 <head>
 	<title>Home</title>
 	<script type="text/javascript" src="./js/test.js"></script>
+	<script type="text/javascript" src="./js/classWrite.js"></script>
 </head>
 
 <body>
