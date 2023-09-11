@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.tdtd.tmtd.model.mapper.FileDaoImpl">
+
+<insert id="insertFile">
+	INSERT INTO FILE
+	(FILE_REF_PK, FILE_ORIGIN_NAME, FILE_SAVE_NAME, FILE_REGDATE)
+	VALUES(#{fileRefPk}, #{fileOriginName}, #{fileSaveName}, SYSDATE)
+</insert>
+
+<select id="getFile" resultType="fileVo">
+	SELECT FILE_REF_PK, FILE_ORIGIN_NAME, FILE_SAVE_NAME
+	FROM "FILE"
+	WHERE FILE_REF_PK = #{fileRefPk}
+</select>
+
+</mapper>

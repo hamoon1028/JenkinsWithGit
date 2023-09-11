@@ -1,0 +1,32 @@
+@charset "UTF-8";
+.sido-group, .sigungu-group{
+	max-height: 165px;
+}
+.click-btn:hover{
+	cursor: pointer;
+}
+#btn-sigungu {
+	margin-left: 10px;
+}
+
+tr, td{
+	text-align: center;
+}
+
+#dateInput::placeholder{
+	color: #6E4C77;
+	font-weight: bold;
+}
+
+input::placeholder{
+	font-style: italic;
+}
+
+.time-btn{
+	margin-right: 5px;
+	margin-bottom: 5px;
+}
+
+#gyeolje-won{
+	text-align: right;
+}

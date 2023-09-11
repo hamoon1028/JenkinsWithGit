@@ -12,6 +12,6 @@
 <body class="twocolumn-panel">
 	<div id="jsVal"></div>
 </body>
-<script type="text/javascript" src="./js/eduLevelForm3.js" charset="UTF-8"></script>
+<script type="text/javascript" src="./js/eduLevelForm2.js" charset="UTF-8"></script>
 
 </html>
