@@ -5,7 +5,9 @@
 <html>
 <head>
 	<title>Home</title>
+	<script type="text/javascript" src="./js/test.js"></script>
 </head>
+
 <body>
 <h1>
 	Hello world!  
@@ -14,5 +16,6 @@
 <P>  The time on the server is ${serverTime}. </P>
 <div>완료</div>
 <div>${checkval}</div>
+<div id="valueIn"></div>
 </body>
 </html>
