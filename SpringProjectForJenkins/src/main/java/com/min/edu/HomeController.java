@@ -35,7 +35,7 @@ public class HomeController {
 		
 		model.addAttribute("checkval", new String("작업 한글"));
 		
-		return "home";
+		return "instrProfileForm";
 	}
 	
 }
